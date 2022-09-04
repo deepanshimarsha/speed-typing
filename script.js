@@ -112,6 +112,7 @@ function updateTime() {
 function gameOver() {
     mainContanier.innerHTML = `
       <h1>Ooops! Time ran out</h1>
+      <h3>Mode: ${difficulty}</h3>
       <h3>Your final score is ${score}</h3>
       <button onclick="location.reload()">Reload</button>
     `;
