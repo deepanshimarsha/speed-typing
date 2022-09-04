@@ -15,6 +15,8 @@ const words = [
     'ball',
     'pies',
     'juice',
+    "Incomprehensibility",
+    "Tergiversation",
     'warlike',
     'bad',
     'north',
@@ -59,9 +61,7 @@ const words = [
     "Middling",
     "Gingerly",
     "Audacious",
-    "Apprehension",
-    "Incomprehensibility",
-    "Tergiversation"
+    
 ];
 
 let randomWord;
