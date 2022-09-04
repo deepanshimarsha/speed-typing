@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
+
+:root{
+    --primary-color: #44403c;
+    --text-color:#7e22ce;
+    --primary-font:'GFS Didot', serif;
+
+}
+
+.hero{
+    color: var(--text-color) ;
+    font-family: var(--primary-font);
+    font-size: larger;
+    font-weight: bold;
+
+}
+.body{
+    color: var(--primary-color);
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    color: #d6d3d1;
+    padding: 0.2rem 1rem;
+  
+    font-family: var(--primary-font);
+    text-align: center;
+   
+}
+
+.navigation .link{
+    color: white;
+    font-family: var(--primary-font);
+    
+    
+}
+
+.nav-pills {
+    text-align: end;
+}
+
+.nav-brand{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+.list-non-bullet {
+    list-style: none;
+    padding-inline-start: 0px;
+    color: var(--text-color);
+    font-size: large;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+    font-family: var(--primary-font);
+}
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: var(--primary-font);
+}
+main{
+    margin: auto;
+    padding: 1rem;
+    max-width: 600px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: var(--primary-color);
+    margin-top: 5rem;
+    color: white;
+    
+}
+button{
+    background: #d6d3d1;
+    border: none;
+    color: #44403c;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    outline: white;
+    margin: auto;
+    display: block;
+    font-family: var(--primary-font);
+    font-family: var(--primary-font);
+    margin-bottom: 1rem;
+}
+
+#output {
+    color: var(--text-color);
+    font-family: var(--primary-font);
+}
+/* footer */
+.footer{
+    background-color: var(--primary-color) ;
+    padding: 1rem 1rem;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    border-top-right-radius:1rem ;
+    position: fixed;
+    
+  
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+.social-link{
+    padding: 0.4rem;
+}
+
+#social-icons{
+    max-width: 2%;  
+    height: auto;
+
+}
+
+#discord{
+    object-fit: cover;  
+}
+
+input {
+    padding: 0.5rem 0.5rem;
+    color: #44403c;
+    border-radius: 0.5rem;
+    border: 2px solid #a8a29e;
+    outline: #fff;
+    font-size: 19px;
+    background-color: #d6d3d1;
+    box-sizing: border-box;
+    font-family: var(--primary-font);
+    font-weight: bold;
+    text-align: center;
+  
+    }
+#label{
+    font-family: var(--primary-font);
+    color: #d6d3d1;
+    font-size: large;
+    display: block;
+    font-weight: bold;
+    
+}
+
+#time {
+    text-align: left;
+    padding-right: 8rem;
+    display: inline;
+    font-family: var(--primary-font);
+}
+
+#score {
+    text-align: right;
+    display: inline;
+    font-family: var(--primary-font);
+}
+#mode{
+    padding-right: 8rem;
+    font-family: var(--primary-font);
+  
+}
+
+p{
+    display: inline;
+    font-size: large;
+    font-weight: bold;
+    color: #d6d3d1;
+
+}
+
+select{
+    font-family: var(--primary-font);
+    width: 14rem;
+    font-weight: bold;
+    height: 2rem;
+    color: #44403c;
+    background-color:#d6d3d1;
+    border: 2px solid #a8a29e;
+}
+
+option{
+    font-weight: bold;
+}
+
+#end-game-container {
+    padding-bottom: 9rem;
+    margin-bottom:5rem ;
+}
+h3, h1{
+    color: #d6d3d1;
+    font-family: var(--primary-font);
+}
+h3{
+    font-size: x-large;
+}

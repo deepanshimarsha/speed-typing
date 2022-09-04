@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>speed typing</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body  style="background-color: #d6d3d1"> 
+    <nav class="navigation container">
+        <h3 class="nav-brand">Speed Typing</h3>
+
+    </nav>
+
+
+
+
+    <main id="main">
+
+        <!--time, mode, score-->
+        <div style="margin-bottom: 1rem;">
+            <p>Time: <span id="time">10s</span></p>
+            <p id="mode">Difficulty Mode:</p>
+            <p>Score:<span id="score">0</span></p>
+        </div>
+
+        <!--modes input-->
+        <form id="settings-form">
+            <select id="difficulty">
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+              </select>
+        </form>
+
+
+
+
+
+        <label style="margin-top: 1rem;" id="label">Type the following :</label>
+
+        <!--random words inserted here-->
+        <h1 style="font-family: 'GFS Didot', serif; color: white; padding-top: 0rem;" id="word"></h1>
+
+
+        <!--input is taken here-->
+        <input style="width: 50%; margin-bottom: 1rem; font-family: 'GFS Didot', serif;"
+        type="text"
+        id="text"
+        autocomplete="off"
+        placeholder="Type the word here..."
+        autofocus
+      />
+        
+        
+    </main>
+
+        <!--results displayed here-->
+        <div id="end-game-container" class="end-game-container"></div>
+        </div>
+
+ 
+
+    
+
+
+
+
+
+    <script src="script.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+
+</body>
+
+</html>
